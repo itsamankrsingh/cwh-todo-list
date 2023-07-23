@@ -43,4 +43,8 @@ export class TodosComponent {
       },
     ];
   }
+
+  deleteTodo(todo: Todo) {
+    console.log(todo);
+  }
 }
